@@ -87,7 +87,7 @@ class App{
                 console.log("Posició capturada:");
                 console.log(gltf.scene.position.x);
                 console.log(gltf.scene.position.y);
-                console.log(gltf.scene.position.z);
+                console.log(gltf.scene.position.z); 
 
 				self.scene.add( gltf.scene );
                 
