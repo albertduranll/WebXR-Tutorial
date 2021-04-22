@@ -80,8 +80,6 @@ class App{
                     }
                 })
                 self.chair = gltf.scene;
-
-                self.chair.position.y = -80;
                 
 				self.scene.add( gltf.scene );
                 
@@ -141,6 +139,8 @@ class App{
     
 	render( ) {   
         this.chair.rotateY( 0.01 );
+
+        this.chair.position.y = -80;
         this.renderer.render( this.scene, this.camera );
     }
 }
