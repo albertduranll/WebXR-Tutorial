@@ -82,8 +82,8 @@ class App{
                 self.chair = gltf.scene;
 
                 //self.chair.position.set(0, -10, 0);
-                gltf.scene.position.set(0, -1, 0);
-                gltf.scene.rotation.set(new THREE.Vector3( Math.PI / 2, 0, 0));
+                gltf.scene.position.set(0, 1, 0);
+                //gltf.scene.rotation.set(new THREE.Vector3( Math.PI / 2, 0, 0));
                 console.log("PLS");
 
 				self.scene.add( gltf.scene );
