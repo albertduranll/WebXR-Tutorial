@@ -83,7 +83,8 @@ class App{
 
                 self.chair.position.set(0, -80, 0);
                 gltf.scene.position.set(0, -80, 0);
-                
+                console.log("NEW");
+
 				self.scene.add( gltf.scene );
                 
                 self.loadingBar.visible = false;
