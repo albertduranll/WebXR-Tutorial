@@ -78,7 +78,7 @@ class App{
                     if (child.isMesh){
                         child.material.metalness = 0.2;
                         console.log("SUUU");
-                        child.position.y = -80;
+                        child.position.y = -150;
                     }
                 })
                 self.chair = gltf.scene;
